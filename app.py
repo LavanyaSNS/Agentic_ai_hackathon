@@ -3,6 +3,7 @@ import json
 from tasks.task_manager import run_task_assignment_with_llm   
 from config import TOGETHER_API
 import fitz  # PyMuPDF
+
 # --- Config ---
 st.set_page_config(page_title="Agentic AI Co-Pilot", layout="wide")
 st.title("🚀 Agentic AI Co-Pilot for Agile Project Execution")
@@ -33,7 +34,6 @@ team_metadata_input = st.text_area(
     value=json.dumps(default_team, indent=2),
     height=300
 )
-
 
 # --- 📄 Upload RAG Document ---
 st.markdown("### 📄 Upload Agile Docs or Playbook for RAG (Optional)")
