@@ -29,12 +29,11 @@ This project uses **agent-based workflow orchestration** and **LLM coordination*
 
 ## 🧠 Architecture Diagram
 
-```mermaid
-graph TD
-    A[User Input: Product Idea & Team JSON] --> B[define_tasks()]
-    B --> C[7 Agents + 7 Tasks Created]
-    C --> D[Prompt Generated for LLM]
-    D --> E[Llama-3.3 70B via Together API]
-    E --> F[LLM Assigns Tasks to Agents Sequentially]
-    F --> G[Final Return: task[], agent[]]
-    G --> H[Streamlit Frontend Displays Output]
+flowchart TD
+    A[User Input:<br>Product Idea & Team Metadata] --> B[define_tasks()]
+    B --> C[Create Agents & Tasks]
+    C --> D[Prompt Generator]
+    D --> E[Llama 3.3 via Together API]
+    E --> F[LLM Assigns Task to Agent Sequentially]
+    F --> G[Final Output: task[] and agent[]]
+    G --> H[UI Displays Results (e.g. Streamlit)]
