@@ -26,22 +26,6 @@ This project uses **agent-based workflow orchestration** and **LLM coordination*
 - Email + markdown sprint summary
 
 ---
-## Project Structure
-
-agentic_ai_copilot/
-├── agents/
-│   ├── agent_1_idea_extractor.py
-│   ├── agent_2_epic_story_generator.py
-│   └── ... (up to agent_7_notifier.py)
-├── tasks/
-│   └── task_manager.py
-├── ui/
-│   └── streamlit_app.py
-├── llm/
-│   └── together_llm_runner.py
-├── main.py
-└── README.md
-
 
 ## 🧠 Architecture Diagram
 
