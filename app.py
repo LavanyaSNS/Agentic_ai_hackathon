@@ -1,7 +1,7 @@
 import streamlit as st
 import json
 from tasks.task_manager import run_task_assignment_with_llm   
-from config import TOGETHER_API
+from agents.config import together_api
 import fitz  # PyMuPDF
 
 # --- Config ---
@@ -66,7 +66,7 @@ if uploaded_file:
 
 
 # --- API Key Section
-together_api_key = TOGETHER_API
+together_api_key = together_api
 
 # --- Action Button ---
 if st.button("✨ Run Agentic AI Workflow"):
