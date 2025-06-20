@@ -2,7 +2,7 @@
 
 > An LLM-powered agentic system that transforms a vague product idea into a full agile sprint plan with tasks, timelines, assignments, and progress monitoring—autonomously!
 
-## 🚀 Live Workflow (Demo URL)
+## 🚀 Workflow (URL)
 🔗 [View the Agentic AI Workflow](https://app.eraser.io/workspace/kr9XxCsZCz7SgFDL7kaX?origin=share)  
 
 
