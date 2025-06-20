@@ -27,6 +27,11 @@ This project uses **agent-based workflow orchestration** and **LLM coordination*
 
 ---
 
+![Screenshot (666)](https://github.com/user-attachments/assets/72a060d7-f07e-45f7-8015-4b6845e706be)
+
+![Screenshot (665)](https://github.com/user-attachments/assets/9e0bcf75-9e75-4129-bcf9-74f9a9e22057)
+
+
 ## 🧠 Architecture Diagram
 
 flowchart TD
