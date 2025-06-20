@@ -29,6 +29,7 @@ This project uses **agent-based workflow orchestration** and **LLM coordination*
 
 ## 🧠 Architecture Diagram
 
+```mermaid
 graph TD
     A[User Input: Product Idea & Team JSON] --> B[define_tasks()]
     B --> C[7 Agents + 7 Tasks Created]
@@ -37,5 +38,3 @@ graph TD
     E --> F[LLM Assigns Tasks to Agents Sequentially]
     F --> G[Final Return: task[], agent[]]
     G --> H[Streamlit Frontend Displays Output]
-
-
